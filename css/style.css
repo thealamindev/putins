@@ -1,0 +1,418 @@
+/* All Common CSS Start  */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS End */
+
+/* Header Paer Start  */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: 300;
+     font-family: 'Montserrat',     sans-serif;
+     transition:.4s ;
+     -webkit-transition:.4s ;
+     -moz-transition:.4s ;
+     -ms-transition:.4s ;
+     -o-transition:.4s ;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c7b299;
+   
+}
+/* Header Paer End */
+
+/* Banner Paer Start  */
+#banner{
+  
+    background: url(../images/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_overly{
+  padding-top: 380px;
+  padding-bottom: 385px;
+  background: rgba(17, 17, 17, 0.70);
+}
+.banner_text h3{
+    font-size: 36px;
+    font-weight: 500;
+        font-family: 'Raleway',
+        sans-serif;
+        
+}
+.banner_text h1{
+  font-size: 52px;
+  font-weight: 800;
+  font-family: 'Raleway',
+  sans-serif;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.banner_text p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding: 0px 20px;
+
+    
+}
+.banner_text a{
+padding: 21px 39px 18px 37px;
+background: #998675;
+border-bottom: 3px solid #736357;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 800;
+font-family: 'Raleway',
+sans-serif;
+color: #fff;
+text-transform: uppercase;
+margin-top: 50px;
+}
+/* Banner Paer End */
+
+/* Service Paer Start  */
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.service_icon i{
+    font-size: 50px;
+    color: #555;
+    transition: .4s;
+}
+.service_text h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway',
+    sans-serif;
+    color: #555;
+    padding-top: 30px;
+    padding-bottom: 20px;
+     transition: .4s;
+}
+.service_text p{
+    color: #8c8c8c;
+      font-size: 13px;
+      font-weight: 300;
+      font-family: 'Montserrat',
+      sans-serif;
+      line-height: 24px;
+      position: relative;
+}
+.service_text p::after{
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    background: #f1eee9;
+    content: "";
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+     transition: .4s;
+}
+
+.service_item:hover .service_icon i{
+    color: #c7b299;
+}
+.service_item:hover .service_text h3 {
+    color: #c7b299;
+}
+.service_item:hover .service_text p::after {
+    background: #c7b299;
+    
+}
+
+/* Service Paer End */
+
+/* Idea Paer Start  */
+#idea{
+    padding-top: 80px;
+    background: #fbfaf8;
+
+}
+.idea_text h3{
+     font-size: 30px;
+     font-weight: 600;
+     font-family: 'Raleway',
+     sans-serif;
+     color: #555;
+     padding-bottom: 25px;
+}
+.idea_text p{
+     color: #8c8c8c;
+     font-size: 16px;
+     font-weight: 300;
+     font-family: 'Montserrat',
+     sans-serif;
+     line-height: 28px;
+}
+.idea_bg{
+    margin-top: 40px;
+}
+/* Idea Paer End */
+
+/* Purchase Now Paer Start  */
+#purchase{
+    padding: 50px 0px;
+    background: linear-gradient(to right, #211b19 , #4e3427);
+}
+.purchase_text h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Raleway',
+    sans-serif;
+    color: #fff;
+}
+.purchase_text span{
+    color: #c7b299;
+}
+.purchase_text p{
+    padding-top: 10px;
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat',     sans-serif;
+}
+.purchase_btn a{
+    padding: 20px 30px 17px 30px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway',
+    sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+#projects{
+    padding: 80px 0px;
+}
+.project_btn button{
+      padding: 10px 25px;
+      background: transparent;
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      margin-right: 7px;
+      color: #8c8c8c;
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Montserrat',      sans-serif;
+      transition: .4s;
+      -webkit-transition: .4s;
+      -moz-transition: .4s;
+      -ms-transition: .4s;
+      -o-transition: .4s;
+}
+.project_btn button:hover{
+    background: #998675;
+    color: #fff;
+}
+.project_img{
+    position: relative;
+}
+.project_overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.shape {
+	width: 30px;
+	height: 30px;
+	background: #fbfaf8;
+	position: absolute;
+	left: 20px;
+	bottom: -15px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+    transition: .4s;
+}
+.project_text{
+    padding: 30px;
+    background: #fbfaf8;
+    transition: .4s;
+
+}
+.project_text h3{
+    color: #c7b299;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway',
+    sans-serif;
+    padding-bottom: 15px;
+    transition: .4s;
+    
+    
+}
+.project_text p{
+    color: #d1d1d1;
+     font-size: 14px;
+     font-weight: 300;
+     font-family: 'Montserrat',     sans-serif;
+     transition: .4s;
+}
+.project_item:hover .project_overly{
+    opacity: 1;
+    visibility: visible;
+}
+.project_item:hover .shape{
+   background: #362f2d;
+}
+.project_item:hover .project_text{
+   background: #362f2d;
+}
+.project_item:hover .project_text h3{
+    color: #fff;
+}
+.project_item:hover .project_text p{
+  color: #c7b299;
+}
+/* Purchase Now Paer End */
+
+
+
+
+/* Video Part Start  */
+#video{
+    background: url(../images/video_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.video_overly{
+    background: rgba(17, 17, 17, 0.7);
+    padding-top: 210px;
+    padding-bottom: 260px;
+
+}
+.video_text h3{
+    color: #fff;
+    padding-top: 45px;
+}
+.video_text p{
+    color: #fff;
+}
+/* Video Part End */
+
+ 
+/* Mobile Part Strat  */
+#mobile{
+    padding-top: 80px;
+
+}
+
+.mob_up_text{
+    margin-top: 115px;
+}
+.mob_arrow_text{
+    margin-top: 45px;
+    margin-left: 55px;
+}
+.mob_arrow_text ul li i{
+    color: #c7b299;
+    margin-right: 10px;
+    font-size: 21px;
+    vertical-align: middle;
+}
+.mob_arrow_text ul li {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat',
+    sans-serif;
+    margin-bottom: 10px;
+}
+/* Mobile Part End  */
+
+/* Mobile Part Strat  */
+#counter_part{
+padding-top: 70px;
+padding-bottom: 90px;
+background: linear-gradient(to right, #211b19, #4e3427);
+}
+.counter_text h3{
+     color: #fff;
+     font-size: 47px;
+     font-weight: 300;
+     font-family: 'Montserrat',sans-serif;
+     padding-top: 30px;
+     padding-bottom: 20px;
+}
+.counter_text p{
+ color: #c7b299;
+ font-size: 14px;
+ font-weight: 300;
+ font-family: 'Montserrat',
+ sans-serif;
+ position: relative;
+ text-transform: uppercase;
+}
+.counter_text p::after{
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    width: 30px;
+    content: "";
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+
+
+}
+/* Mobile Part End  */
+
+/* Mobile Part Strat  */
+/* Mobile Part End  */
